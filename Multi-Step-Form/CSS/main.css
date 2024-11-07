@@ -1,0 +1,53 @@
+
+body {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    gap: 60px;
+}
+
+
+.form-steps {
+    width: 200px;
+    color: white;
+    background-color: #127fdf;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 2%;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 1px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: rgba(8, 8, 104, 0.911);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+input[type="submit"]:active {
+    background-color: green;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
